@@ -11,6 +11,7 @@ void swap(int i, int j, vector<int>& array) {
 }
 
 vector<int> bubbleSort(vector<int> array) {
+  // O(n^2) time | O(1) space
   int counter = 0;
   bool isSorted = false;
   for(int i = 0; i < array.size(); ++i) {
