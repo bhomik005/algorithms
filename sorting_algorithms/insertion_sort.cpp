@@ -9,6 +9,7 @@ void swap(int i, int j, vector<int>& array) {
 }
 
 vector<int> insertionSort(vector<int> array) {
+  // O(n^2) time | O(1) space
   for(int i = 1; i < array.size(); ++i) {
     int j = i;
     while(j >= 1 && array[j-1] > array[j]) {
